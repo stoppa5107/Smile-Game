@@ -44,11 +44,11 @@
                             <input type="email" class="text" name="uname" placeholder="Email Address" required="" autofocus>
 
                             &nbsp;&nbsp;&nbsp;&nbsp; <label>Password 🙈</label> <br/>
-                            <input type="password" class="text" name="password" placeholder="Password" required="" pattern=".{6,}" autofocus >
+                            <input type="password" class="text" name="password" placeholder="Password" required="" minlength="8" autofocus >
                             <p>Passwords are case sensitive, must not contain symbols and must be at least 8 characters.</p>
 
                             &nbsp;&nbsp;&nbsp;&nbsp; <label>Confirm Password 🙊</label> <br/>
-                            <input type="password" class="text" name="re_password" placeholder="Confirm Password" required="" autofocus>
+                            <input type="password" class="text" name="re_password" placeholder="Confirm Password" required="" minlength="8" autofocus>
                             <button class="btn" type="submit">Sign Up</button>
                         </form>
                         
@@ -65,8 +65,8 @@
         </div>
         <!-- copyright-->
         <div class="copyright text-center">
-            <p class="copy-footer-29">© 2022🤔. All rights reserved | Design by <a
-                        href="#">Adikwu Joseph Ochigbo</a></p>
+            <p style="color: black;" class="copy-footer-29">© 2022🤔. All rights reserved | Design by <a
+            style="color: black;" href="#">Adikwu Joseph Ochigbo</a></p>
         </div>
         <!-- //copyright-->
     </section>
