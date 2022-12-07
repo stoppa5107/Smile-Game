@@ -37,7 +37,7 @@
                     <?php } ?>
                         <form action="login.php" method="post">
                             <input type="text" class="text" name="uname" placeholder="User Name" required="" autofocus>
-                            <input type="password" class="password" name="password" placeholder="User Password" required="" autofocus>
+                            <input type="password" class="password" name="password" placeholder="Password" required="" autofocus>
                             <button class="btn" type="submit">Log In</button>
                         </form>
                         
@@ -54,8 +54,8 @@
         </div>
         <!-- copyright-->
         <div class="copyright text-center">
-            <p class="copy-footer-29">© 2022 🤔. All rights reserved | Design by <a
-                        href="#">Adikwu Joseph Ochigbo</a></p>
+            <p style="color: black;" class="copy-footer-29">© 2022 🤔. All rights reserved | Design by <a
+            style="color: black;" href="#">Adikwu Joseph Ochigbo</a></p>
         </div>
         <!-- //copyright-->
     </section>
