@@ -130,15 +130,17 @@
 
     <img id="quest" />
 <div>
+    <!-- Input data field -->
     <h2 class="h2-62" id="note">Not ready</h2>
 
     <h2>Enter the missing number: 
     <input class="button-62" id="input" type="number" step="1" min="0" max="9">
     <button class="btn btn-primary" onclick="handleInput()">Submit</button>
-    
+    <!--Score counter -->
     <h3>Scores <span id="scores">0</span></h3>
     
     </h2>
+<!-- endgame and logout button-->
      <a class="btn btn-warning" href="gameover.php">End Game</a>
  
     <a class="btn btn-danger" href="logout.php">Logout</a>
